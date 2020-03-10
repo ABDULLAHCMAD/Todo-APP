@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  align:center;
+
+}
+
+
+.header{
+  background-color: lightgreen;
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 138px;
+  
+  
+}
+
+.body{
+/* height: 300px; */
+width: 70%;
+margin: auto;
+
+}
+
+body{background-color: rgb(66, 158, 66);}
+
+.body ul li{
+  background-color: rgb(157, 229, 157);
+  color: rgb(66, 158, 66);
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  
+}
+
+
+
+.body span{
+float: right;
+font-size: 25px;
+cursor: pointer;
+}
+
+.footer input{
+  background-color: rgb(116, 219, 116);
+  margin-bottom: 5px;
+  padding: 5px;
+  border: none;
+  border-bottom: 3px solid white;
+  height: 20px;
+  width:70%;
+  color: white;
+  font-size: 24px;
+  
+}
+
+.footer input:focus{
+  outline: none;
+}
+.footer button:focus{
+  outline: none;
+}
+
+
+.footer{
+  background-color: rgb(116, 219, 116);
+  /* margin-bottom: 0px; */
+  /* margin-top: 0px; */
+  padding: 10px;
+  width: 100%;
+  /* bottom:0px; */
+  top: 95px;
+position: absolute;
+}
+
+.footer button{
+border-radius: 30px;
+height: 40px;
+width:55px;
+/* display: flex; */
+float: right;
+margin-right: 70px ;
+/* margin: 20px; */
+font-size: 20px solid black;
+/* text-align: center; */
+/* padding: 10px 5px; */
+
+}
+
+
